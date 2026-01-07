@@ -25,6 +25,25 @@ Don't alternate days; alternate **modes of thinking**.
 * **Evenings (60 min): Python Practice.** Focus on syntax and basic automation (Netmiko).
 * **Weekends:** Integration. Use a Python script to automate a lab you built in CCNA.
 
+CCNA Neil Anderson Bootcamp
+- [ ] 
+
+Jeremy's IT Lab
+- [ ]
+
+Kirk Byers "PythonForNetworkEngineers"
+- [ ]
+
+David Bombal's "Python Network Programming for Experts"
+- [ ]
+
+***CCNA***
+- [ ]
+
+STAGE 1 : DONE 
+- [ ]
+
+Next.
 ---
 
 ## Stage 1a: Git Control (The DevOps Engine)
@@ -41,6 +60,16 @@ Don't alternate days; alternate **modes of thinking**.
 
 > **Key Focus for 2026:** Master the "Git Flow" (main, dev, and feature branches). In 2026, network outages are often caused by bad script versions; knowing how to `git revert` is a survival skill.
 
+Introduction to Git and GitHub
+- [ ]
+
+Version Control with Git
+- [ ]
+
+Stage 1a : DONE
+- [ ]
+
+Next.
 ---
 
 ## Stage 2: CCNP Automation (Enterprise & Data Center)
@@ -55,7 +84,11 @@ This focuses on **Cisco Catalyst Center (DNA Center)**, **SD-WAN**, and **Meraki
 * **Self-Paced:** **Nick Russo’s "ENAUTO Study Track" (Pluralsight).**
 * Nick is famous for "minimalist" teaching—getting you the info you need for the exam and the job without the fluff.
 
+PyNet Labs - CCNP ENAUTO
+- [ ]
 
+Nick Russo’s "ENAUTO Study Track" (Pluralsight)
+- [ ] 
 
 ### 2.2 Data Center Automation (DCAUTO 300-635)
 
