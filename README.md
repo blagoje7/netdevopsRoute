@@ -1,123 +1,86 @@
-This is an ambitious and highly rewarding path. As of **January 2026**, the industry has shifted significantly toward "Infrastructure as Code," and Cisco has updated its blueprints (CCNA 200-301 v1.1+) to lean more heavily into automation.
+# 🚀 NetDevOps Mastery Path: 2026 Edition
 
-Below is your comprehensive 2026 master plan, combining classical networking with modern DevOps.
+> **Goal:** Transition from Network Associate to Professional Automated Infrastructure Engineer.
 
----
-
-## Stage 1: The Foundation (Networking + Python)
-
-**Goal:** Master the "How" of networking and the "How" of scripting simultaneously.
-
-### The Gold Standard Courses (2026)
-
-| Subject | Course Name | Primary Instructor/Platform | Why it's the Gold Standard |
-| --- | --- | --- | --- |
-| **Networking** | **CCNA 200-301 Gold Bootcamp** | Neil Anderson (Flackbox/Udemy) | Updated for 2026 v1.1 topics; best mix of theory and practical labs. |
-| **Networking** | **Free CCNA 200-301 Course** | Jeremy’s IT Lab (YouTube) | The best free resource with high-quality Anki flashcards and Packet Tracer labs. |
-| **Python** | **Python for Network Engineers** | Kirk Byers (https://www.google.com/search?q=PythonForNetworkEngineers.com) | The industry benchmark for applying Python specifically to Netmiko, NAPALM, and Nornir. |
-| **Python** | **Python Network Programming for Experts** | David Bombal (Udemy/YouTube) | Excellent for practical "build-a-script" learners. |
-
-### The Simultaneous Study Strategy
-
-Don't alternate days; alternate **modes of thinking**.
-
-* **Mornings (90 min): CCNA Theory.** Focus on routing, switching, and IP services.
-* **Evenings (60 min): Python Practice.** Focus on syntax and basic automation (Netmiko).
-* **Weekends:** Integration. Use a Python script to automate a lab you built in CCNA.
-
-CCNA Neil Anderson Bootcamp
-- [ ] 
-
-Jeremy's IT Lab
-- [ ]
-
-Kirk Byers "PythonForNetworkEngineers"
-- [ ]
-
-David Bombal's "Python Network Programming for Experts"
-- [ ]
-
-***CCNA***
-- [ ]
-
-STAGE 1 : DONE 
-- [ ]
-
-Next.
----
-
-## Stage 1a: Git Control (The DevOps Engine)
-
-**Goal:** Learn how to version-control your scripts and collaborate.
-
-### The Gold Standard Course (2026)
-
-* **Primary Pick:** **"Introduction to Git and GitHub" (Google on Coursera).** * This is part of the Google IT Automation Professional Certificate. It covers exactly what a NetDevOps engineer needs: branching, merging, and remote repositories, without getting lost in software developer-only complexities.
-* **Alternative:** **"Version Control with Git" (Atlassian on Coursera).**
-* Since Atlassian owns Bitbucket, they provide a very enterprise-centric view of Git.
-
-
-
-> **Key Focus for 2026:** Master the "Git Flow" (main, dev, and feature branches). In 2026, network outages are often caused by bad script versions; knowing how to `git revert` is a survival skill.
-
-Introduction to Git and GitHub
-- [ ]
-
-Version Control with Git
-- [ ]
-
-Stage 1a : DONE
-- [ ]
-
-Next.
----
-
-## Stage 2: CCNP Automation (Enterprise & Data Center)
-
-**Goal:** Professional-level automation across diverse environments.
-
-### 2.1 Enterprise Automation (ENAUTO 300-435)
-
-This focuses on **Cisco Catalyst Center (DNA Center)**, **SD-WAN**, and **Meraki APIs**.
-
-* **Gold Standard:** **PyNet Labs - CCNP ENAUTO.** * They provide access to real sandboxes for SD-WAN and DNA Center, which are nearly impossible to lab at home.
-* **Self-Paced:** **Nick Russo’s "ENAUTO Study Track" (Pluralsight).**
-* Nick is famous for "minimalist" teaching—getting you the info you need for the exam and the job without the fluff.
-
-PyNet Labs - CCNP ENAUTO
-- [ ]
-
-Nick Russo’s "ENAUTO Study Track" (Pluralsight)
-- [ ] 
-
-### 2.2 Data Center Automation (DCAUTO 300-635)
-
-This focuses on **Cisco ACI**, **NX-OS**, and **Intersight**.
-
-* **Gold Standard:** **Cisco Digital Learning (Official).**
-* Cisco’s own "DCAUI" course is expensive but is the only one that reliably grants access to the ACI and Nexus Dashboards.
-
-
-* **Alternative:** **Orhan Ergun’s DCAUTO Training.**
-* Excellent for deep-dive architectural understanding of how automation fits into a spine-leaf Data Center fabric.
-
-
+This repository serves as my living portfolio and study log. It tracks my journey through CCNA, Python Mastery, and CCNP-level Automation.
 
 ---
 
-### Implementation Timeline
+## 📊 Current Progress
 
-| Month | Phase | Focus |
-| --- | --- | --- |
-| **1-3** | **Stage 1** | CCNA (Fundamentals) + Python (Basic Syntax). Use Jeremy’s Anki cards daily. |
-| **4** | **Stage 1a** | Git. Move all your Python scripts into a private GitHub repository. |
-| **5-7** | **Stage 2 (Enterprise)** | ENAUTO. Focus on Catalyst Center APIs and Ansible playbooks for IOS-XE. |
-| **8-10** | **Stage 2 (Data Center)** | DCAUTO. Focus on ACI (Cobra SDK) and Nexus Dashboard automation. |
+* [ ] **Stage 1: Git Version Control** `(0 / 100%)`
+* [ ] **Stage 2: CCNA & Python Fundamentals** `(0 / 100%)`
+* [ ] **Stage 3: CCNP Enterprise Automation** `(0 / 100%)`
+* [ ] **Stage 3a: CCNP Data Center Automation** `(0 / 100%)`
 
 ---
 
-### Next Step: Hardware & Tools
+## 🌿 Stage 1: Git & Version Control
 
-To start Stage 1 today, you need your environment ready.
+**Objective:** Treat "Infrastructure as Code" (IaC). Everything I build lives in this repo.
 
-**Would you like me to provide a list of the specific Python libraries you should prioritize learning for Stage 1?**
+### 📚 Learning Resources
+
+* **Course:** [Google IT Automation - Git/GitHub (Coursera)](https://www.coursera.org/learn/introduction-git-github).
+* **Practice:** [Learn Git Branching (Interactive)](https://learngitbranching.js.org/).
+
+### ✅ Milestones
+
+* [ ] Master the CLI: `add`, `commit`, `push`, `pull`, `fetch`.
+* [ ] Understand **Branching Strategy** (Feature branching vs. Main).
+* [ ] Resolve a deliberate merge conflict.
+* [ ] Set up a `.gitignore` for Python virtual environments (`.venv`).
+
+---
+
+## 🛠 Stage 2: The Foundation (Simultaneous Study)
+
+**Objective:** Obtain CCNA 200-301 (v1.1) and build a functional Python automation toolkit.
+
+### 📚 Learning Resources
+
+* **Networking:** [Neil Anderson's CCNA Gold Bootcamp](https://www.flackbox.com/cisco-ccna-course) & [Jeremy’s IT Lab (Free)](https://www.youtube.com/c/JeremysITLab).
+* **Python:** [Kirk Byers' Python for Network Engineers](https://www.google.com/search?q=https://pythonfornetworkengineers.com/) & [David Bombal's Python for Experts](https://www.davidbombal.com/).
+
+### ✅ Milestones
+
+* [ ] Master IPv4/IPv6 Subnetting.
+* [ ] Configure and troubleshoot VLANs, STP, and EtherChannel.
+* [ ] **Python:** Write scripts to automate VLAN creation using `Netmiko`.
+* [ ] **Python:** Parse CLI output into structured data using `Genie` or `TextFSM`.
+* [ ] Pass CCNA 200-301 Exam.
+
+---
+
+## 🏗 Stage 3: CCNP Automation (Enterprise & Data Center)
+
+**Objective:** Professional-level orchestration for Campus and DC fabrics.
+
+### 🛰 3.1 Enterprise Automation (ENAUTO 300-435)
+
+* [ ] **Focus:** Cisco Catalyst Center (DNA-C), SD-WAN APIs, and Meraki Dashboard.
+* [ ] **Goal:** Build an Ansible Playbook to deploy a site-wide configuration template.
+* [ ] **Resource:** [Nick Russo’s Pluralsight Path](https://www.pluralsight.com/authors/nick-russo).
+
+### 🏢 3.2 Data Center Automation (DCAUTO 300-635)
+
+* [ ] **Focus:** Cisco ACI (Application Centric Infrastructure), NX-OS APIs, and Intersight.
+* [ ] **Goal:** Use Python `requests` to interact with the APIC REST API.
+* [ ] **Resource:** [Cisco Digital Learning (DCAUI)](https://www.google.com/search?q=https://digital-learning.cisco.com/).
+
+---
+
+## 💻 Tech Stack
+
+* **Language:** Python 3.12+
+* **Libraries:** Netmiko, Nornir, Requests, Scrapli, PyATS.
+* **Tools:** VS Code, Cisco Packet Tracer, GNS3/EVENG, Docker.
+* **OS:** Ubuntu 24.04 LTS (WSL2 or VM).
+
+---
+
+## 📈 Study Log
+
+*Use this section to jot down daily wins.*
+
+* **2026-01-08:** Initialized repository and mapped out the 2026 Master Plan.
