@@ -23,21 +23,21 @@ def current_users(events):
   for event in events:
     if event.machine not in machines:
       machines[event.machine] = set()
+      
     if event.type == "login":
       machines[event.machine].add(event.user)
     elif event.type == "logout":
-      machines[event.machine].remove(event.user)
+      # OPTIMIZED LINE HERE
+      machines[event.machine].discard(event.user)   # fix is here, we can use discard instead of remove (if user is there it will remove it if not it will just ignore it)
+    # this fixes problem with chris being logged out without logging in first
   return machines
 
 def generate_report(machines):
   for machine, users in machines.items():
+    # Ensure we only print machines that actually have active users
     if len(users) > 0:
       user_list = ", ".join(users)
       print("{}: {}".format(machine, user_list))
 
-
-
 users = current_users(events)
-print(users)
-
 generate_report(users)
